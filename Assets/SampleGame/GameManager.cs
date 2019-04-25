@@ -34,19 +34,10 @@ public class GameManager : MonoBehaviour
     public void SaveGame()
     {
         // ここにコードを追加する
-        SaveData data = new SaveData();
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        data.posX = player.transform.position.x;
-        data.posY = player.transform.position.y;
-        string json = JsonUtility.ToJson(data);
-        PlayerPrefs.SetString("SaveData", json);
     }
 
     public void LoadGame()
     {
         // ここにコードを追加する
-        string json = PlayerPrefs.GetString("SaveData");
-        SaveData data = JsonUtility.FromJson<SaveData>(json);
-        SpawnPlayer(data.posX, data.posY);
     }
 }
