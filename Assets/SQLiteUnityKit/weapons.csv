@@ -1,0 +1,33 @@
+Name,Base,Special
+Cypress Stick,7,
+Cobblestone Sword,8,
+Soldier's Sword,10,
+Copper Sword,13,
+Bronze Sword,16,
+Syvlando's Sword,18,
+Iron Broadsword,20,
+Rapier,24,
+Bandit Blade,30,
+Silver Rapier,32,
+Steel Broadsword,35,
+Cautery Sword,42,Fire damage to group when used as item
+Falcon Blade,45,Attacks twice
+Zombiesbane,54,Bonus damage to Undead (20%)
+Platinum Sword,60,
+Bastard Sword,61,
+Heliodorian Sword,61,
+Zombie Slayer,65,Bonus damage to Undead (30%)
+Aurora Blade,70,Fire damage to group when used as item
+Dragonsbane,72,Bonus damage to Dragons (20%)
+Fizzle Foil,80,
+Miracle Sword,80,Portion of Damage Dealt Restored as HP (25%)
+Metal Slime Sword,84,+1 damage to Metals
+Fire Blade,87,Will deal fire damage when attacking
+Liquid Metal Sword,93,+1 damage to Metals
+Dragon Slayer,96,Bonus damage to Dragons (40%)
+Inferno Blade,111,Will deal fire damage when attacking
+Thunderstorm Sword,111,Max MP +12
+Sword of Kings,120,Wind damage to group when used as item
+Thousand-Fold Katana,136,Chance to reduce enemy defense (8%)
+Uber Falcon Blade,94,Attacks twice
+Uber Miracle Sword,135,Portion of Damage Dealt Restored as HP (30%)
