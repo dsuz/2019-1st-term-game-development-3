@@ -14,10 +14,8 @@ public class Manager : MonoBehaviour
         m_starCount = stars.Length;
 
         // 課題 2. インスペクターから Star に設定した Events On Death を全て削除し、以下に「スクリプトから OnStarKilled() を m_eventsOnDeath に設定する処理」を記述せよ。
-        foreach(var star in stars)
-        {
-            star.m_eventsOnDeath.AddListener(OnStarKilled);
-        }
+
+        /* ===== ここに課題のための処理を追加する ===== */
     }
 
     void Update()
