@@ -37,6 +37,11 @@ public class PlayerControllerUi : MonoBehaviour
     public void Horizontal(float value)
     {
         m_horizontal = value;
+
+        if (m_horizontal > 0)
+            Debug.Log("Right");
+        else if (m_horizontal < 0)
+            Debug.Log("Left");
     }
 
     /// <summary>
@@ -46,5 +51,10 @@ public class PlayerControllerUi : MonoBehaviour
     public void Vertical(float value)
     {
         m_vertical = value;
+
+        if (m_vertical > 0)
+            Debug.Log("Up");
+        else if (m_vertical < 0)
+            Debug.Log("Down");
     }
 }

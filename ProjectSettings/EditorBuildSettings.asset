@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/CrossPlatform/MultiTouch.unity
+    guid: eb791f523de642245a785e61d4b00b91
+  - enabled: 1
+    path: Assets/CrossPlatform/uGUI.unity
+    guid: 76039719a5d9a7341902ccb5133d2a3a
+  - enabled: 1
+    path: Assets/CrossPlatform/VirtualStick.unity
+    guid: 7515da9d8d8d92d4f82a30624d6ac672
   m_configObjects: {}

@@ -40,6 +40,7 @@ public class PointerEffectController : MonoBehaviour
     {
         Vector3 pos = worldPosition;
         pos = new Vector3(pos.x, pos.y, Camera.main.transform.position.z + 1f);    // カメラに映るように Z 座標を調整する
+        Debug.Log("Create GameObject at " + pos.ToString());
         GameObject go = Instantiate(m_effectPrefab);    // エフェクトのオブジェクトを生成する
         go.transform.position = pos;    // エフェクトの位置を移動する
         go.transform.SetParent(gameObject.transform);   // Hierarchy 上で邪魔なので自分の子オブジェクトにする
